@@ -1,0 +1,26 @@
+name: my_website
+navbar:
+  title: Website of Brian Bonsignore
+  left:
+  - text: Home
+    icon: fa-home
+    href: index.html
+  - text: About
+    icon: fa-info
+    href: about.html
+  - text: Page
+    href: page2.html
+    icon: fa-gear
+    menu:
+    - text: Heading
+    - text: Page A
+output_dir: docs
+output:
+  html_document:
+    mathjax:
+    theme: yeti
+    highlight: pygments
+    css: ~
+    lib_dir: site_libs
+    self_contained: no
+
